@@ -13,9 +13,8 @@ const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
     <header className=" top-0 left-0 right-0 z-50 px-4 lg:px-6 h-20 flex items-center sticky bg-foreground transition ease-in">
-        <Link className="flex items-center justify-center border-16 border-primary" href="/">
-          <Logo  />
-
+        <Link className="flex items-center justify-center border-16 border-primary text-background" href="/">
+          <Logo />
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Button
