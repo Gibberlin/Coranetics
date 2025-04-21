@@ -10,7 +10,7 @@ export default function About() {
             <div className="flex flex-col items-center text-center mb-12">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl mb-4">About Coranetics</h1>
               <p className="max-w-[600px] text-muted-foreground">
-                We're on a mission to revolutionize the way businesses operate in the digital age.
+                We&apos;re on a mission to revolutionize the way businesses operate in the digital age.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
@@ -20,7 +20,7 @@ export default function About() {
                   Founded in 2024, Coranetics emerged from a simple idea: to make technology accessible and beneficial for businesses of all sizes. Our journey began with a small team of passionate developers and has grown into a company that serves thousands of customers worldwide.
                 </p>
                 <p className="text-muted-foreground">
-                  Today, we continue to push the boundaries of what's possible, constantly innovating and improving our services to meet the evolving needs of our customers.
+                  Today, we continue to push the boundaries of what&apos;s possible, constantly innovating and improving our services to meet the evolving needs of our customers.
                 </p>
               </div>
               <div>
@@ -29,7 +29,7 @@ export default function About() {
                   We believe that technology should empower businesses, not complicate them. Our mission is to provide intuitive, powerful solutions that help companies grow and succeed in the digital landscape.
                 </p>
                 <p className="text-muted-foreground">
-                  Through innovation, dedication, and a customer-first approach, we're building the future of business technology.
+                  Through innovation, dedication, and a customer-first approach, we&apos;re building the future of business technology.
                 </p>
               </div>
             </div>
