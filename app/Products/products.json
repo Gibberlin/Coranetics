@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Google Review Boost Cards",
+    "description": "Professionally designed cards to encourage customers to leave positive Google reviews, helping you grow your online reputation effortlessly.",
+    "price": "₹4.99/card"
+  },
+  {
+    "id": 2,
+    "name": "Custom Name Cards",
+    "description": "Elegant and customizable name cards tailored to showcase your personal or professional identity with style and clarity.",
+    "price": "₹2.99 /card"
+  },
+  {
+    "id": 3,
+    "name": "Premium Business Cards",
+    "description": "High-quality, durable business cards with a professional finish to leave a lasting impression on your clients and partners.",
+    "price": "₹5.99 /card"
+  }
+]

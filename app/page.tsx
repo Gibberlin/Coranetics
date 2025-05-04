@@ -1,6 +1,6 @@
 //Coranetics Main Page
 import { Button } from "@/components/ui/button"
-// import Link from "next/link"
+import Link from "next/link"
 import AnimatedHero from "./components/animatedHero"
 // import NavBar from "./NavBar"
 

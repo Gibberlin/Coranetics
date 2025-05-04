@@ -1,90 +1,116 @@
-import React from 'react'
-import Logo from './Logo'
-import Link from 'next/link'
-import { GitHubLogoIcon, InstagramLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons'
+import React from "react";
+import Logo from "./Logo";
+import Link from "next/link";
+import { GitHubLogoIcon, InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+
 const Footer = () => {
   return (
-    <footer className="footer bg-black text-white flex justify-items-center flex-col items-center md:flex-row md:justify-between md:p-20 text-center xs:hidden">
-  {/* <aside>
-    <Logo />
-    <p>
-      Coranetics Industries Ltd.
-      <br />
-      
-    </p>
-  </aside>
-  <div className='flex justify-items-center w-full'>
-  <nav className='flex 1 justify-between'>
-    <h6 className="footer-title">Services</h6>
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
-  </nav>
-  <nav>
-    <h6 className="footer-title">Company</h6>
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
-  </nav>
-  <nav>
-    <h6 className="footer-title">Legal</h6>
-    <a className="link link-hover">Terms of use</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">Cookie policy</a>
-  </nav>
-  </div>
-   */}
-   <div>
-   <Logo />
-   <p>Established in 2024</p>
-   </div>
-   
-
-     <footer className="w-full py-6  text-white">
-        <div className="container px-4 md:px-6 mx-auto w-full">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Product</h3>
-              <ul className="space-y-2">
-                <li><Link href="#" className="hover:underline">Features</Link></li>
-                <li><Link href="#" className="hover:underline">Pricing</Link></li>
-                <li><Link href="#" className="hover:underline">FAQ</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Company</h3>
-              <ul className="space-y-2">
-                <li><Link href="#" className="hover:underline">About</Link></li>
-                <li><Link href="#" className="hover:underline">Careers</Link></li>
-                <li><Link href="#" className="hover:underline">Contact</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Legal</h3>
-              <ul className="space-y-2">
-                <li><Link href="#" className="hover:underline">Privacy Policy</Link></li>
-                <li><Link href="#" className="hover:underline">Terms of Service</Link></li>
-                <li><Link href="#" className="hover:underline">Cookie Policy</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Links</h3>
-              <ul className="space-y-2 flex-row">
-                <li className='flex-1'><Link href="https://www.instagram.com/coranetics/" className="hover:scale-105"><InstagramLogoIcon className="m-2 h-9 w-9" />Instagram</Link></li>
-                <li className='flex-2'><Link href="#" className="hover:underline"><LinkedInLogoIcon className='m-2 h-9 w-9 '/>LinkedIn</Link></li>
-                <li><Link href="#" className="hover:underline"><GitHubLogoIcon className='m-2 h-9 w-9'/>Github</Link></li>
-              </ul>
-            </div>
+    <footer className="bg-black text-white py-10">
+      <div className="container mx-auto px-4 md:px-6">
+        {/* Top Section */}
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-8 md:space-y-0">
+          {/* Logo and Info */}
+          <div className="text-center md:text-left">
+            <Logo />
+            <p className="mt-2">Established in 2024</p>
           </div>
-          <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-            <p className="text-sm">© 2024 Coranetics Inc. All rights reserved.</p>
+
+          {/* Product Links */}
+          <div className="w-full md:w-auto">
+            <h3 className="text-lg font-semibold mb-2 text-center md:text-left">Product</h3>
+            <ul className="space-y-2 text-center md:text-left">
+              <li>
+                <Link href="#" className="hover:underline">
+                  Features
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:underline">
+                  Pricing
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:underline">
+                  FAQ
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Company Links */}
+          <div className="w-full md:w-auto">
+            <h3 className="text-lg font-semibold mb-2 text-center md:text-left">Company</h3>
+            <ul className="space-y-2 text-center md:text-left">
+              <li>
+                <Link href="#" className="hover:underline">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:underline">
+                  Careers
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:underline">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Legal Links */}
+          <div className="w-full md:w-auto">
+            <h3 className="text-lg font-semibold mb-2 text-center md:text-left">Legal</h3>
+            <ul className="space-y-2 text-center md:text-left">
+              <li>
+                <Link href="#" className="hover:underline">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:underline">
+                  Terms of Service
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:underline">
+                  Cookie Policy
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Social Links */}
+          <div className="w-full md:w-auto">
+            <h3 className="text-lg font-semibold mb-2 text-center md:text-left">Links</h3>
+            <ul className="flex justify-center md:justify-start space-x-4">
+              <li>
+                <Link href="https://www.instagram.com/coranetics/" className="hover:scale-105">
+                  <InstagramLogoIcon className="h-9 w-9" />
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:scale-105">
+                  <LinkedInLogoIcon className="h-9 w-9" />
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:scale-105">
+                  <GitHubLogoIcon className="h-9 w-9" />
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
-      </footer>
-</footer>
-  )
-}
 
-export default Footer
+        {/* Bottom Section */}
+        <div className="mt-8 pt-8 border-t border-gray-700 text-center">
+          <p className="text-sm">© 2024 Coranetics Inc. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

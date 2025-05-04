@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "360 Photography",
+    "description": "Capture immersive 360-degree photos to showcase your business or property.",
+    "price": "Starting at $99.99 /photo"
+  },
+  {
+    "id": 2,
+    "name": "GMB (Google My Business) Setup",
+    "description": "Professional setup and optimization of your Google My Business profile to enhance your online presence.",
+    "price": "Starting at $4999 /one-time"
+  },
+  {
+    "id": 3,
+    "name": "Personalized Website",
+    "description": "Custom-designed websites tailored to your specific needs and preferences.",
+    "price": "Starting at $2999.9 /one-time"
+  }
+]

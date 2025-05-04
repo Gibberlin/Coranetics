@@ -27,7 +27,7 @@ const NavBar = () => {
             <span className="sr-only">Toggle Menu</span>
           </Button>
           <div className={`${isMenuOpen ? 'flex' : 'hidden'} lg:flex flex-col lg:flex-row absolute lg:relative top-20 lg:top-0 left-0 lg:left-auto w-full lg:w-auto bg-background lg:bg-transparent p-4 lg:p-0 space-y-2 lg:space-y-0 lg:space-x-4 rounded-b-lg lg:rounded-none animate-out`}>
-            {["Features", "Pricing", "About", "Contact"].map((item) => (
+            {["Products", "Pricing", "Features", "Contact"].map((item) => (
               <Button key={item} variant="ghost" className="text-primary md:text-background" asChild>
                 <Link href={item}>{item}</Link>
               </Button>
