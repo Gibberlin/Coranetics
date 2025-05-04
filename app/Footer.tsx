@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { GitHubLogoIcon, InstagramLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons'
 const Footer = () => {
   return (
-    <footer className="footer bg-base-200 text-base-content p-10 flex justify-items-center">
+    <footer className="footer bg-black text-white flex justify-items-center flex-col items-center md:flex-row md:justify-between md:p-20 text-center xs:hidden">
   {/* <aside>
     <Logo />
     <p>
